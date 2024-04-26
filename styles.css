@@ -1,0 +1,64 @@
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 428px;
+  margin: 0 auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .container {
+      max-width: 1440px;
+    }
+  }
+
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    color: rgb(35 147 195);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+h5 {
+    font-style: italic;
+}
+span {
+    font-weight: bold;
+}
+.definitions{
+    padding-left: 40px;
+}
+
+.personal-data {
+    padding-left: 40px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
