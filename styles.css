@@ -3,6 +3,7 @@ h2 {
   margin: 0;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 p {
@@ -19,13 +20,16 @@ ul {
 .container {
   max-width: 428px;
   margin: 0 auto;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
+      padding-left: 120px;
+      padding-right: 120px;
     }
   }
   @media screen and (min-width: 1440px) {
@@ -40,13 +44,21 @@ ul {
   h5,
   h6 {
     margin: 0;
-    color: rgb(35 147 195);
+    color: #4f81bd;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 h5 {
     font-style: italic;
+    font-size: 16px;
 }
+h6 {
+  color: black;
+  text-align: left;
+  font-size: 16px;
+}
+
 span {
     font-weight: bold;
 }
@@ -61,4 +73,7 @@ span {
 
 li {
     margin-bottom: 10px;
+}
+a {
+  color: #0000ff;
 }
